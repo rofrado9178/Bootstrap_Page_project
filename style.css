@@ -2,6 +2,8 @@
   background: url(runway.webp);
   background-position: center;
   background-size: cover;
+  transition: 0.5s;
+  animation: scaleUp 5s ease-in;
 }
 
 .img-card {
@@ -10,4 +12,13 @@
   height: 200px;
   background-position: center;
   background-size: cover;
+}
+
+@keyframes scaleUp {
+  from {
+    transform: scale(0) rotateY(180deg);
+  }
+  to {
+    transform: scale(1);
+  }
 }
