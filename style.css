@@ -3,3 +3,11 @@
   background-position: center;
   background-size: cover;
 }
+
+.img-card {
+  background: url(jumpsuit.jpg);
+  width: 200px;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+}
