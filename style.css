@@ -6,12 +6,10 @@
   animation: scaleUp 5s ease-in;
 }
 
-.img-card {
-  background: url(jumpsuit.jpg);
-  width: 200px;
-  height: 200px;
-  background-position: center;
-  background-size: cover;
+.card-img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
 }
 
 @keyframes scaleUp {
@@ -21,4 +19,12 @@
   to {
     transform: scale(1);
   }
+}
+
+.hover-card {
+  transition: 0.5s;
+}
+
+.hover-card:hover {
+  transform: scale(1.05);
 }
